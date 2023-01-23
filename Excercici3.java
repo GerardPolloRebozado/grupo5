@@ -6,22 +6,23 @@ public class Excercici3 {
         Scanner llegir = new Scanner(System.in);
 
         float costInicial = 0.0f , costFinal = 0.0f, preuVenda = 0.0f;
-        boolean bonEstat;
+        boolean malEstat;
 
 
-        System.out.println("Benvingut/da al programa...");
-        System.out.print("Escriu l'import de la compra actual: ");
+        System.out.println("Benvingut/da al programa.. ");
+        System.out.print("Escriu l'import de la figura que has comprat: ");
         costInicial = llegir.nextFloat();
 
-        System.out.print("La figura esta en bon estat? (true | false) ");
+        System.out.print("La figura esta en mal estat? (true | false) ");
         bonEstat = llegir.nextBoolean();
 
-        if(bonEstat == true) {
+        if(malEstat == true) {
+          
 
-            preuVenda = costInicial * 1.25f;
+            preuVenda = costInicial * 5.50f;
 
         }else {
-            preuVenda = costInicial * 1.10f;
+            preuVenda = costInicial * 2.50f;
         }
         System.out.println("El preu de venda d ela figura es " + preuVenda);
 
