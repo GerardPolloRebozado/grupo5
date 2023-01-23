@@ -24,7 +24,7 @@ public class Excercici3 {
         }else {
             preuVenda = costInicial * 2.50f;
         }
-        System.out.println("El preu de venda d ela figura es " + preuVenda);
+        System.out.println("El cost de la venda es: " + preuVenda);
 
     }
 }
