@@ -9,18 +9,16 @@ public class Excercici3 {
         boolean malEstat;
 
 
-
-        System.out.println("Benvingut/da al programa.. ");
-        System.out.print("Escriu l'import de la figura que has comprat: ");
+        System.out.println("Benvingut");
+        System.out.print("Escriu el cost de la compra actual: ");
         costInicial = llegir.nextFloat();
 
-        System.out.print("La figura esta en mal estat? (true | false) ");
-        
-
+        System.out.print("La figura esta en bon estat? (false | true) ");
         bonEstat = llegir.nextBoolean();
 
-        if(malEstat == true) {
-          
+        if(bonEstat == false) {
+
+
 
             preuVenda = costInicial * 5.50f;
 
@@ -30,8 +28,10 @@ public class Excercici3 {
 
 
         System.out.println("El preu de venda d ela figura es " + preuVenda);
+
         System.out.println("Adios");
         
+
 
     }
 }
