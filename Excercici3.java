@@ -9,11 +9,11 @@ public class Excercici3 {
         boolean bonEstat;
 
 
-        System.out.println("Benvingut/da al programa...");
+        System.out.println("bienvenido al programa.");
         System.out.print("Escriu l'import de la compra actual: ");
         costInicial = llegir.nextFloat();
 
-        System.out.print("La figura esta en bon estat? (true | false) ");
+        System.out.print("La figura esta en bon estat? Respon amb true | false ");
         bonEstat = llegir.nextBoolean();
 
         if(bonEstat == true) {
@@ -24,6 +24,8 @@ public class Excercici3 {
             preuVenda = costInicial * 1.10f;
         }
         System.out.println("El preu de venda d ela figura es " + preuVenda);
+        System.out.println("Adios");
+        
 
     }
 }
