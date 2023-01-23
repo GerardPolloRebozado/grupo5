@@ -6,7 +6,7 @@ public class Excercici3 {
         Scanner llegir = new Scanner(System.in);
 
         float costInicial = 0.0f , costFinal = 0.0f, preuVenda = 0.0f;
-        boolean bonEstat;
+        boolean malEstat;
 
 
         System.out.println("Benvingut");
@@ -18,13 +18,20 @@ public class Excercici3 {
 
         if(bonEstat == false) {
 
-            preuVenda = costInicial * 1.25f;
+
+
+            preuVenda = costInicial * 5.50f;
 
         }else {
-            preuVenda = costInicial * 1.10f;
+            preuVenda = costInicial * 2.50f;
         }
+
+
         System.out.println("El preu de venda d ela figura es " + preuVenda);
-       
+
+        System.out.println("Adios");
+        
+
 
     }
 }
